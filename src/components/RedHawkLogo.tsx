@@ -5,6 +5,7 @@ export function RedHawkLogo() {
       version="1.1"
       id="svg900"
       xmlns="http://www.w3.org/2000/svg"
+      style="height: 100%;"
     >
       <defs id="defs897" />
       <g id="layer1" transform="translate(-5.8589473,-126.31312)">
