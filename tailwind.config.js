@@ -7,10 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         rhr: ['"rockwell nova"'],
-        'rhr-ns': ['"SF Sports Night NS"'],
+        'rhr-ns': ['"futura-pt"'],
       },
       colors: {
-        red: { rhr: '#ef3340' },
+        red: { rhr: '#ff0000' },
       },
     },
   },
