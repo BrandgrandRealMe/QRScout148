@@ -1,4 +1,4 @@
-export function Logo() {
+export function RedHawkLogo() {
   return (
     <svg
       viewBox="0 0 199.07204 43.952259"
