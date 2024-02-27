@@ -90,7 +90,7 @@ export default function ConfigurableInput(props: ConfigurableInputProps) {
         <div className="py-2 px-1">
           <label
             htmlFor={input.title}
-            className="mb-2 block text-sm font-bold text-gray-700"
+            className="mb-2 block text-sm font-bold text-dark-gray-700"
           >
             {input.title}
           </label>

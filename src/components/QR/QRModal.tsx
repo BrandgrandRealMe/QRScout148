@@ -34,7 +34,7 @@ export function QRModal(props: QRModalProps) {
       {props.show && (
         <>
           <div
-            className="fixed inset-0 h-full w-full overflow-y-auto bg-gray-300 bg-opacity-50 dark:bg-opacity-70 backdrop-blur-sm "
+            className="fixed inset-0 h-full w-full overflow-y-auto bg-dark-gray-300 bg-opacity-50 dark:bg-opacity-70 backdrop-blur-sm "
             id="my-modal"
           />
           <div
@@ -44,7 +44,7 @@ export function QRModal(props: QRModalProps) {
             <div className="flex flex-col items-center pt-8 ">
               <CloseButton onClick={props.onDismiss} />
               <QRCode className="m-2 mt-4" size={256} value={qrCodeData} />
-              <h1 className="text-3xl text-gray-800 font-rhr-ns ">{title}</h1>
+              <h1 className="text-3xl text-dark-gray-800 font-rhr-ns ">{title}</h1>
               <PreviewText data={qrCodeData} />
             </div>
           </div>
