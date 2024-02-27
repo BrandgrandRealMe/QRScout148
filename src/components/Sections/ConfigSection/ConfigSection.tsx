@@ -44,7 +44,7 @@ function downloadConfig(formData: Config) {
 export function ConfigSection() {
   const formData = useQRScoutState(state => state.formData);
   return (
-    <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md dark:bg-gray-600 gap-2 p-2">
+    <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md dark:bg-gray-300 gap-2 p-2">
       <Button
         variant={Variant.Secondary}
         onClick={() =>
@@ -65,7 +65,7 @@ export function ConfigSection() {
       >
         Download Config
       </Button>
-      <label className="mx-2 flex cursor-pointer flex-row justify-center rounded bg-gray-500 py-2 text-center font-bold text-white shadow-sm hover:bg-gray-600">
+      <label className="mx-2 flex cursor-pointer flex-row justify-center rounded bg-gray-250 py-2 text-center font-bold text-white shadow-sm hover:bg-gray-300">
         <span className="text-base leading-normal">Upload Config</span>
         <input
           type="file"

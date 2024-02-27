@@ -23,7 +23,7 @@ export function CommitAndResetSection({
   }, [formData]);
 
   return (
-    <div className="mb-4 flex flex-col justify-center rounded bg-white py-2 shadow-md dark:bg-gray-600">
+    <div className="mb-4 flex flex-col justify-center rounded bg-white py-2 shadow-md dark:bg-gray-300">
       <CommitButton
         disabled={missingRequiredFields.length > 0}
         onClick={onCommit}

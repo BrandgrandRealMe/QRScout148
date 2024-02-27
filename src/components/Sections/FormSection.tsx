@@ -12,7 +12,7 @@ export default function FormSection(props: SectionProps) {
   const inputs = formData.sections.find(s => s.name === props.name)?.fields;
   return (
     <div
-      className="mb-4 rounded bg-gray-100 shadow-md dark:bg-gray-600"
+      className="mb-4 rounded bg-gray-50 shadow-md dark:bg-gray-300"
       key={props.name}
     >
       <div className="mb-2 rounded-t bg-red-rhr p-1 shadow-md">
