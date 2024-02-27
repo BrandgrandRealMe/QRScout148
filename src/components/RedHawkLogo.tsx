@@ -1,6 +1,5 @@
 export function RedHawkLogo() {
   return (
-    <div style="height: 25px">
     <svg
       viewBox="0 0 199.07204 43.952259"
       version="1.1"
@@ -201,6 +200,5 @@ export function RedHawkLogo() {
         </g>
       </g>
     </svg>
-    </div>
   );
 }
