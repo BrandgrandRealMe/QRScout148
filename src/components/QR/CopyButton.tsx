@@ -7,7 +7,7 @@ export function CopyButton(props: CopyButtonProps) {
   return (
     <div onClick={props.onCopy} className={props.className}>
       <svg
-        className="text-dark-gray-400 hover:text-dark-gray-800 "
+        className="text-black-400 hover:text-black-800 "
         width="24"
         height="24"
         viewBox="0 0 24 24"

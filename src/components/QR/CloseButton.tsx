@@ -5,7 +5,7 @@ export type CloseButtonProps = {
 export function CloseButton(props: CloseButtonProps) {
   return (
     <button
-      className="focus:shadow-outline rounded-full text-dark-gray-500 absolute top-0 right-0 m-2 p-2 hover:text-dark-gray-800 "
+      className="focus:shadow-outline rounded-full text-black-500 absolute top-0 right-0 m-2 p-2 hover:text-black-800 "
       type="button"
       onClick={props.onClick}
     >
