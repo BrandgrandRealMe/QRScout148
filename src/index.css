@@ -16,3 +16,7 @@ body {
   font-family: 'SF Sports Night NS';
   src: url('/fonts/SF Sports Night NS.ttf');
 }
+@font-face {
+  font-family: 'rockwell nova';
+  src: url(https://fonts.cdnfonts.com/s/14413/RockwellNova.woff) format('woff')
+}
