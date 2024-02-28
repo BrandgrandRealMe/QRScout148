@@ -10,7 +10,7 @@ module.exports = {
         'rhr-ns': ['"futura-pt"'],
       },
       colors: {
-        red: { rhr: '#ff0000' },
+        red: { rhr: '#d7272e' },
       },
     },
   },
