@@ -12,7 +12,7 @@ export function App() {
   const [showQR, setShowQR] = useState(false);
 
   return (
-    <div className="min-h-screen py-2 dark:bg-gray">
+    <div className="min-h-screen py-2 dark:bg-gray-500">
       <Header />
       <main className="flex flex-1 flex-col items-center justify-center px-4 text-center">
         <h1 className="font-sans text-6xl font-bold">
