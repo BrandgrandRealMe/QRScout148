@@ -65,7 +65,7 @@ export function ConfigSection() {
       >
         Download Config
       </Button>
-      <label className="mx-2 flex cursor-pointer flex-row justify-center rounded bg-gray-400 py-2 text-center font-bold text-white shadow-sm hover:bg-gray-600">
+      <label className="mx-2 flex cursor-pointer flex-row justify-center rounded bg-gray-900 py-2 text-center font-bold text-white shadow-sm hover:bg-gray-600">
         <span className="text-base leading-normal">Upload Config</span>
         <input
           type="file"
