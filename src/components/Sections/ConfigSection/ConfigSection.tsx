@@ -44,7 +44,7 @@ function downloadConfig(formData: Config) {
 export function ConfigSection() {
   const formData = useQRScoutState(state => state.formData);
   return (
-    <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md dark:bg-gray-1100 gap-2 p-2">
+    <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md dark:bg-gray-600 gap-2 p-2">
       <Button
         variant={Variant.Secondary}
         onClick={() =>
