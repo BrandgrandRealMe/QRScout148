@@ -5,4 +5,5 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/QRScout148/',
   plugins: [preact()],
+  publicDir: 'public'
 });
